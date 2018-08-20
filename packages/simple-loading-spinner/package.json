@@ -1,6 +1,6 @@
 {
   "name": "@lmeikle/simple-loading-spinner",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Renders a simple react loading spinner",
   "main": "dist/index.js",
   "repository": {
@@ -36,6 +36,8 @@
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
   },
-  "keywords": ["simple react loading spinner"],
+  "keywords": [
+    "simple react loading spinner"
+  ],
   "gitHead": "6d48368c6831de613c22f36c9925257bf9062b52"
 }
