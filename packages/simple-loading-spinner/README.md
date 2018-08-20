@@ -3,7 +3,7 @@ simple-loading-spinner
 Renders a simple react loading spinner using Webpack 4.<br/>
 Based on: https://www.npmjs.com/package/react-webpack-component
 
-## Example:
+### Example:
 
 ```javascript
 import React, { Component } from 'react';
@@ -17,7 +17,7 @@ class HelloWorld extends Component {
 export default HelloWorld;
 ```
 
-## Commands
+### Commands
 
 #### Building
 

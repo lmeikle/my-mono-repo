@@ -31,4 +31,4 @@ To publish:
 
 | Type     | Size        |
 | -------- | ----------- |
-| Minified | `514 bytes` |
+| Minified | '514 bytes' |
