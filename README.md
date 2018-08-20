@@ -4,7 +4,7 @@
 
 Trying out monorepo using LernaJS
 
-##### Download and Installation
+##### Download and Installation:
 
 npm install --g lerna<br>
 lerna bootstrap --hoist
