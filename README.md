@@ -25,8 +25,7 @@ From the root folder 'my-mono-repo'<br>
 
 ##### Publishing:
 
-lerna publish
-(automatically runs prepublish in each package first)
+* lerna publish
 
 ##### Useful Links:
 
