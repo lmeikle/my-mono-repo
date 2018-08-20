@@ -1,6 +1,6 @@
 {
   "name": "@lmeikle/calculate-distance-util",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Given a set of 4 coordinates calculates the distance in KM between them.",
   "main": "dist/calculate-distance-util.min.js",
   "scripts": {
