@@ -1,0 +1,10 @@
+{
+  "env": {
+    "development": {
+      "presets": ["env"]
+    },
+    "production": {
+      "presets": ["babel-preset-es2015-rollup"]
+    }
+  }
+}

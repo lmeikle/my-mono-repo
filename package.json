@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build": "lerna exec npm run build",
+    "test": "lerna exec npm run test",
+    "test:calculate-distance-util": "lerna exec npm run test --scope @lmeikle/calculate-distance-util",
+    "test:simple-loading-spinner": "lerna exec npm run test --scope @lmeikle/simple-loading-spinner"
+  },
+  "devDependencies": {
+    "lerna": "^3.1.1"
+  }
+}
