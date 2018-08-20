@@ -4,6 +4,9 @@
 
 Trying out monorepo using LernaJS
 
+The root package.json, at the very least, is how you install lerna locally during a CI build. You should also put there your testing, linting and similar tasks there to run them from root as running them separately from each package is slower.
+The root can also hold all the “hoisted” packages, which speeds up bootstrapping when using the --hoist flag.
+
 ##### Download and Installation:
 
 npm install --g lerna<br>
@@ -25,7 +28,7 @@ From the root folder 'my-mono-repo'<br>
 
 ##### Publishing:
 
-* lerna publish
+* lerna publish (will automatically run prepublish in each package first)
 
 ##### Useful Links:
 
@@ -33,3 +36,5 @@ https://github.com/lerna/lerna#readme<br>
 https://hackernoon.com/one-vs-many-why-we-moved-from-multiple-git-repos-to-a-monorepo-and-how-we-set-it-up-f4abb0cfe469<br>
 https://danluu.com/monorepo/<br>
 https://github.com/dan-kez/lerna-webpack-example<br>
+https://codeburst.io/monorepos-by-example-part-2-4153712cfa31<br>
+https://github.com/larkintuckerllc/hello-monorepo/tree/master/packages/grocery<br>

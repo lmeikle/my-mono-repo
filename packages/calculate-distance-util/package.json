@@ -7,6 +7,7 @@
     "start": "set NODE_ENV=production&& rollup -c --watch",
     "build": "set NODE_ENV=production&& rollup -c",
     "test": "set NODE_ENV=development&& jest",
+    "test:coverage": "set NODE_ENV=development&& jest --coverage",
     "prepublish": "npm run build"
   },
   "publishConfig": {
@@ -22,7 +23,6 @@
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015-rollup": "^3.0.0",
-    "jest": "^23.5.0",
     "rollup": "^0.55.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-node-resolve": "^3.0.2",

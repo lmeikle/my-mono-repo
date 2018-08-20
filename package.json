@@ -5,9 +5,13 @@
     "build": "lerna exec npm run build",
     "test": "lerna exec npm run test",
     "test:calculate-distance-util": "lerna exec npm run test --scope @lmeikle/calculate-distance-util",
-    "test:simple-loading-spinner": "lerna exec npm run test --scope @lmeikle/simple-loading-spinner"
+    "test:simple-loading-spinner": "lerna exec npm run test --scope @lmeikle/simple-loading-spinner",
+    "test:coverage": "lerna exec npm run test:coverage"
   },
   "devDependencies": {
-    "lerna": "^3.1.1"
+    "lerna": "^3.1.1",
+    "enzyme": "^3.4.3",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "jest": "^23.5.0"
   }
 }

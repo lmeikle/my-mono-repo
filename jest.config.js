@@ -1,5 +1,5 @@
 module.exports = {
-  collectCoverageFrom: ['**/*.js'],
+  collectCoverageFrom: ['src/**/*.js'],
   resetMocks: true,
   verbose: true,
   setupTestFrameworkScriptFile: '../../jest/setupTests.js',
