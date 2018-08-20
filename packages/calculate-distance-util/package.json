@@ -9,6 +9,9 @@
     "test": "set NODE_ENV=development&& jest",
     "prepublish": "npm run build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/lmeikle/calculate-distance-util"
@@ -24,5 +27,6 @@
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-node-resolve": "^3.0.2",
     "rollup-plugin-uglify": "^3.0.0"
-  }
+  },
+  "gitHead": "ccaa239e75f9788d4e4b96e8720c18e833fb4096"
 }
