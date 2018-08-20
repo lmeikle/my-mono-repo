@@ -1,4 +1,3 @@
 {
-  "presets": ["env", "react", "stage-2"],
-  "plugins": ["transform-async-to-generator"]
+  "presets": ["env", "react", "stage-2"]
 }
