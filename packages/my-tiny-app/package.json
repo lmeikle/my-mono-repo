@@ -1,6 +1,6 @@
 {
   "name": "my-tiny-app",
-  "version": "1.0.0",
+  "version": "3.0.4",
   "private": true,
   "description": "",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
-    "@lmeikle/calculate-distance-util": "^3.0.3",
-    "apple": "^1.0.0"
+    "@lmeikle/calculate-distance-util": "^3.0.4",
+    "apple": "^3.0.4"
   }
 }
