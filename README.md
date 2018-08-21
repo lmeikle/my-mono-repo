@@ -9,8 +9,13 @@ The root can also hold all the “hoisted” packages, which speeds up bootstrap
 
 ##### Download and Installation:
 
-npm install --g lerna<br>
-lerna bootstrap --hoist
+* npm install --g lerna<br>
+* lerna bootstrap --hoist
+
+##### Linking local packages:
+
+* lerna add @lmeikle/calculate-distance-util --scope=my-tiny-app (gets from npm as it exists there)
+* lerna add apple --scope=my-tiny-app (just links to local package)
 
 ##### Testing:
 
